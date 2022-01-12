@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="maker">
+           <input type="number" id="width" placeholder="Enter width...">
+           <input type="number" id="height" placeholder="Enter height...">
+           <input type="text" id="text" placeholder="Enter text...">
+           <p>Background-color</p><input type="color" id="bg_color">
+           <p>Color</p><input type="color" id="color">
+           <button onclick="maker_btn()" id="submit">Create</button>
+        </div>
+        <div class="visible">
+         <button id="make_btn">Hello</button>
+        </div>
+        <div class="code">
+           <div class="write_code">
+            <p id="output"></p>
+           </div>
+           <button id="copy">Copy to clipboard</button>
+        </div>
+    </div>
+</body>
+</html>
